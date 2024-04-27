@@ -6,7 +6,7 @@ from PIL import Image
 import base64
 
 # Path to your local gif file
-gif_path = "pages\media\g3.gif"
+gif_path = "pages/media/g3.gif"
 
 # Open the gif file and encode it
 with open(gif_path, "rb") as gif_file:
