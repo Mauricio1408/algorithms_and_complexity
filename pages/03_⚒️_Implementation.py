@@ -7,7 +7,7 @@ import sys
 import base64
 
 # Path to your local gif file
-gif_path = "D:\Downloads\pathfinding_02.gif"
+gif_path = "pages/media/pathfinding_02.gif"
 
 # Open the gif file and encode it
 with open(gif_path, "rb") as gif_file:
