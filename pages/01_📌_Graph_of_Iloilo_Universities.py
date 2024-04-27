@@ -6,7 +6,7 @@ import sys
 from PIL import Image
 
 # Path to local image
-image_path = "D:\Downloads\g2.jpg"
+image_path = "pages/media/g2.jpg"
 
 img = Image.open(image_path)
 
