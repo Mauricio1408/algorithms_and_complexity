@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Path to your video file
-gif_path = r'D:\Downloads\Recording 2024-04-25 164855.gif'
+gif_path = r'pages/media/Recording 2024-04-25 164855.gif'
 
 # Open the gif file and encode it
 with open(gif_path, "rb") as gif_file:
@@ -62,17 +62,17 @@ col1, col2, col3 = st.columns(3)
 # Put content in each column
 with col1:
 
-    show_img('PavCreations', r'D:\Pictures\Screenshots\Screenshot 2024-04-26 120331.png')
+    show_img('PavCreations', r'pages/media/Screenshot 2024-04-26 120331.png')
 
 with col2:
 
-    show_img('Github', r"D:\Downloads\github_logo.png")
+    show_img('Github', r"pages/media/github_logo.png")
 
-    show_img('Multiplier', r"D:\Pictures\Screenshots\Screenshot 2024-04-26 122221.png")
+    show_img('Multiplier', r"pages/media/Screenshot 2024-04-26 122221.png")
 
 with col3:
     
-    show_img('West Visayas State University', r"D:\WVSU\WVSU LOGO.PNG", 135)
+    show_img('West Visayas State University', r"pages/media/WVSU LOGO.PNG", 135)
 
 
 
