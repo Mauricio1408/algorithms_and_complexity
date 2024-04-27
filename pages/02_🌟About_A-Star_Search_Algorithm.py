@@ -64,7 +64,7 @@ st.caption(txt_contents.f_cost())
 st.divider()
 
 # Path to your local gif file
-gif_path = "D:\Downloads\g4.gif"
+gif_path = "pages/media/g4.gif"
 
 # Open the gif file and encode it
 with open(gif_path, "rb") as gif_file:
